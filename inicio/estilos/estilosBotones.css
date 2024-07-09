@@ -1,0 +1,300 @@
+form {
+
+  height : auto;
+ margin:auto;
+  margin-top: 0px;
+ 
+  padding:0% 2%;
+  width  : 90%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+input, select, textarea {
+  width: 100%;
+   background:#fff);
+   border: 1px solid rgba(0, 86, 111, 1);
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 16px;
+   padding: 10px;
+}
+
+/* for IE */
+   /* This is optional but it makes legac IEs look better */
+
+label{
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+input:focus, textarea:focus, select:focus {
+  background   : rgba(0,45,0,.1);
+  border-radius: 5px;
+  outline      : none;
+ 
+}
+
+select {
+  text-transform: none;
+ width: 100%;
+}
+
+input {
+  height: 38px;
+  line-height: normal;
+}
+
+
+
+textarea {
+  overflow: auto;
+  height:80px;
+
+  max-width: 100%;
+}
+
+label {
+  width: 100%;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+.file{
+  width: 100%;
+
+}
+
+ .thumb {
+            width: 100%;
+            height: auto;
+            border-radius: 3px;
+            border: 1px solid #000;
+            margin: 10px auto 0;
+          }
+
+/*nimi buscador */
+.input_conteiner-top{
+  display: flex;
+margin:2% 1% ;
+padding-bottom: 2%;;
+  flex-direction: column;
+  border-bottom: 1px solid #dedede;
+}
+
+#buscar{
+  border-radius: 0;
+  border: solid 3px #2980B9;
+  border-right: none; 
+}
+.input_item-top{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.boton-item-top {
+width: 100%;
+color: #fff;
+background: #2980B9;
+border: solid 3px #2980B9;
+padding-left: 3%;
+padding-right: 3%;
+text-align: center;
+
+}
+.boton-top {
+  width: 30%;
+background: #2980B9;
+border: solid 3px #2980B9;
+   
+}
+.boton-top:hover {
+background: #3498DB;
+border: solid 3px #3498DB;
+   
+}
+
+/* fin fin nimi buscador */
+
+
+
+.input_conteiner{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  margin:1%;
+
+}
+.input_item{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.btn {
+  border:solid 1px #145D9A;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-3 {
+  background: #679FC5;
+  color: #fff;
+  margin-left:  -3px;
+}
+
+.btn-3:hover {
+  background: #2980B9;
+}
+
+.btn-3:active {
+  background: #1E5D86;
+  top: 2px;
+}
+
+.btn-3:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 190%;
+  width: auto;
+}
+
+
+.btn-3a:before {
+  background: rgba(0,0,0,0.4);
+}
+.icon{
+ width: 20px;
+ height: 20px;
+}
+.conteiner_botones{
+  width: 100%;
+  padding:0;
+  margin: 6% 0%;
+  display: flex;
+  z-index: 0;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+@media (min-width: 400px ) {
+ .boton-item-top{
+  width: 30%;
+ }
+
+ .icon{
+ width: 30px;
+ height: 30px;
+}
+.btn {
+  border: none;
+  padding: 5px 8px;
+
+}
+}
+@media (min-width: 800px ) {
+ .icon{
+ width: 40px;
+ height: 40px;
+}
+.btn {
+  
+  padding: 5px 25px;
+
+}
+form{
+  
+}
+  .input_item{
+  width: 47%;
+  display:flex;
+   margin:1%;
+}
+
+.input_conteiner{
+max-width: 300%;
+
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:0%;
+}
+.input-gran{
+  width: 100%;
+}
+
+.thumb {
+          width:auto;
+            height: 200px;
+          
+          }
+
+
+.conteiner_botones{
+  padding: 20px;
+  margin:2% 1% 2% 1%;
+}
+}
+
+@media (min-width: 1200px) {
+.btn {
+  
+  padding: 5px 50px;
+
+}
+    .input_item{
+  width: 100%;
+  display:flex;
+   margin:1%;
+}
+  .input_conteiner{
+margin:-.5%;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+
+.input-gran{
+  width: 100%;
+}
+
+
+
+
+}
+
+

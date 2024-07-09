@@ -1,0 +1,105 @@
+.post{
+	width: 100%;
+	margin: auto;
+
+
+}
+.conteiner{
+	width: 100%;
+	padding: 0 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.conteiner{
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background:  #FFF;
+	margin: auto;
+	
+}
+.foto{
+	max-width: 70%;
+	max-height: 100%;
+	margin:10px auto;
+    border-radius: 50%;
+    
+	
+}
+
+.item{
+	
+	color: #fff;
+background:#fff;
+color: #000;
+
+}
+h2{
+	margin: 10px auto;
+	font-size:23px;
+	background:rgba(0, 86, 111, 1);
+	padding: 10px;
+	width: 100%;
+	
+	color: #FFF;
+}
+.sub-item{
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-self:stretch;
+}
+.conctato{
+background: rgba(0, 86, 111, 1);
+padding: 10px;
+width: 100%;
+align-self:flex-end;
+color: #fff;
+margin: 10px auto;
+
+}
+footer{
+	align-self: flex-end;
+	width: 100%;
+	background: rgba(0, 9, 11, 1);
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+
+}
+#conte a {
+color: #ecf0f1;
+}
+#conte a:hover {
+color: #fff;
+}
+span a:active{
+	color: ##9294A6;
+
+}
+@media screen and (min-width: 768px ) {
+
+.conteiner{
+	flex-wrap: nowrap;
+}
+.foto{
+	max-width: 30%;
+}
+}
+@media screen and (min-width: 1200px ) {
+.post{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.conteiner{
+	flex-wrap: wrap;
+	width: 48%;
+}
+.foto{
+	max-width: 30%;
+	
+}
+}

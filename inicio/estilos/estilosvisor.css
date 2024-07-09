@@ -1,0 +1,31 @@
+.contenido{
+	margin: auto;
+	margin-top:70px;
+	margin-bottom: 30px;
+	width: 80%;
+	
+}
+.bnt-visor:hover{
+	background: #3498db;
+	color: #fff;
+}
+.part-visor{
+	width:100%;
+	margin:10px auto;
+	margin-bottom: 40px;
+	overflow: hidden;
+	padding: 10px;
+	background: #444544;
+}
+.banner-etiqueta{
+	width: 100%;
+	padding:10px;
+	background: #fff;
+}
+
+.lista-visor{
+	
+	height: 100px;
+	width: 98%;
+	margin: 5px auto;
+}

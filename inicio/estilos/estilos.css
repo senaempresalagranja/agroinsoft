@@ -1,0 +1,166 @@
+
+*{
+   font-family: 'Helvetica';
+}
+body{
+  
+  font-size: 1em;
+
+  
+}
+ 
+.contenido{
+
+ display: flex;
+ flex-direction:column;
+ align-content: flex-start;
+ justify-content:flex-start;
+ margin-top:70px;
+}
+  
+a h3{
+  margin-top: 10px;
+  font-size: 16px;
+}
+.contenido-inico{
+
+ display: flex;
+ flex-direction:column;
+ align-content: flex-start;
+ justify-content:flex-start;
+ margin-top:70px;
+}
+.conteiner-top{
+  width: 100%;
+  height:;
+  background-image: url("../../img/baneer.png");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position:  center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ align-content: center;
+ margin-top:90px;
+
+}
+
+
+.nombre{
+ width: 100%;
+  background:  #005374;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+ color:#fff;
+
+
+ padding: 20% 0;
+ box-sizing: border-box;
+ text-indent:0;
+  margin-top:180px;
+}
+
+h1{
+  padding-top:10px;
+ font-size: 2em;
+
+}
+.version{
+ font-size:1em;
+ padding: 0;
+ margin-top: -20px;
+
+} 
+.principal{
+ background: #fff;
+ display:flex;
+ flex-direction:column;
+    width: 90%; 
+   margin:50px auto ;
+}
+
+article{
+ margin: 5px;
+
+}
+h2{
+  padding-top:10px;
+  font-size: 2em;
+}
+
+footer{
+ width: 100%;
+ background: rgba(0, 9, 11, 1);
+ color: #fff;
+ padding: 2em;
+ text-align: center;
+ font-size: 0.8em;
+ box-sizing: border-box; 
+  align-items: center;
+}
+
+#conte a {
+color: #ecf0f1;
+}
+#conte a:hover {
+color: #fff;
+}
+@media (min-width: 425px ) {
+     .nombre{
+      padding: 5% 0;
+      margin-top: 250px;
+     }
+     
+     h1{
+      font-size: 3em;
+     }
+
+     .version{
+      font-size:2em;
+
+     } 
+   
+}
+@media (min-width: 800px ) {
+     .titulo{
+      padding: 5% 0;
+      box-sizing: border-box;
+     }
+     
+     h1{
+      font-size: 5em;
+     }
+
+     .version{
+      font-size:2em;
+    
+     } 
+     
+     .principal{
+     
+  		margin:60px auto ;
+
+     }
+
+}
+
+@media (min-width: 1200px) {
+      .nombre{
+      padding: 5% 0;
+      margin-top: 250px;
+      background: rgba(0, 0, 0, .6);
+     }
+     .principal{
+       width: 90%;
+		margin:60px auto ;
+           
+    }
+
+    
+
+}
+
+

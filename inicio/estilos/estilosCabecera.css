@@ -1,0 +1,281 @@
+
+* {
+  padding:0;
+  margin:0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#heade{
+  width: 100%;
+   position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background:#3498db;
+}
+
+
+.menu_bar {
+  display:none;
+
+}
+
+header {
+
+  width: 100%;
+  font-size: 1.2em;
+right: 0;
+
+
+}
+ 
+header nav {
+    background:#3498db;
+     display: fixed;
+ z-index:200;
+  width:100%;
+  
+}
+
+
+header nav ul {
+
+  list-style:none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+ 
+header nav ul li {
+ 
+  display:inline-block;
+  position: relative;
+
+}
+#menu{
+  width: 100%;
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+   border-bottom:2px solid #2980B9;
+}
+header nav ul li:hover {
+  background:#2980b9;
+
+}
+ 
+header nav ul li a {
+  color:#fff;
+  display:block;
+  text-decoration:none;
+  padding:10px 15px;
+}
+ 
+header nav ul li a span {
+  margin-right:5px;
+}
+ 
+header nav ul li:hover .children {
+  display:block;
+}
+ 
+header nav ul li .children {
+  display: none;
+  background:#16405B;
+  position: absolute;
+  width: 150%;
+}
+ 
+header nav ul li .children li {
+  display:block;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+.abajo{height: 10px;
+width: 10px;
+margin-left:5px;}
+header nav ul li .children li a {
+  display: block; 
+  padding: 10px;
+
+}
+ 
+header nav ul li .children li a span {
+  float: right;
+  position: relative;
+  top:3px;
+  margin-right:0;
+  margin-left:10px;
+}
+ 
+header nav ul li .caret {
+  position: relative;
+  top:3px;
+  margin-left:10px;
+  margin-right:0px;
+}
+ .isologo{
+  height: 95px;
+  margin:0;} 
+#logo{
+
+  display: flex;
+  font-size: 1.6em;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+   background:#2980b9;
+   border-bottom:none;
+}
+h2{  
+  width:800px;
+position: absolute;
+top: 44px;
+left: 400px;
+  color: #fff;
+  font-size: .9em;
+ 
+}
+
+.sesion{
+ border: 1px solid #3498db;
+  background: #3498db;
+
+}
+.sesion:hover{
+  background:#2ecc71;
+  border:1px solid #2ecc71 ;
+}
+
+@media screen and (max-width: 1330px) {
+
+nav{
+ display: block;
+}
+#menu{
+  border: none;
+  display:inline-block;
+}
+
+header nav ul li a {
+
+  padding: 15px;
+}
+ #logo{
+  display: none;
+ }
+  .menu_bar {
+    display:block;
+    width:100%;
+    position: fixed;
+    top:0;
+    font-size: 1em;
+    background:rgba(0, 83, 116,1);
+
+  }
+ 
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+   font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+ 
+  .menu_bar span {
+    float: right;
+    font-size: 40px;
+  }
+ 
+  header nav {
+    width: 100%;
+    height: calc(100% - 70px);
+    position: fixed;
+    right:100%;
+ margin-top: 90px;
+    overflow: scroll;
+  }
+ 
+  header nav ul li {
+    display: block;
+    border-bottom:1px solid rgba(255,255,255,.5);
+  }
+ 
+  header nav ul li a {
+    display: block;
+  }
+ 
+  header nav ul li:hover .children {
+    display: none;
+  }
+ 
+  header nav ul li .children {
+    width: 100%;
+    position: relative;
+  }
+ 
+  header nav ul li .children li a {
+    margin-left:20px;
+  }
+ 
+  header nav ul li .caret {
+    float: right;
+  }
+}
+
+      
+ .cerrar:hover{
+  background: #c51a42;
+}
+.btn-ayuda{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  border: 0;
+  border-radius: 0;
+  background: #3498DB;
+  z-index: 900;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.btn-ayuda:hover{
+  background: #2980B9;
+}
+.icon-ayuda{
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+}
+.botones{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+
+}
+.cam-button{
+  border: none;
+  color:#2980B9;
+  width: 40px;
+  height: 40px;
+  margin-right:10px;
+
+}
+
+
+.cam-button:hover{
+  cursor: pointer;
+  background: #2980B9;
+}
+@media (min-width: 1200px) {
+    
+.btn-ayuda{
+  top: 44px;
+}
+
+}

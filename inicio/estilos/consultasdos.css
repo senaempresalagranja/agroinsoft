@@ -1,0 +1,79 @@
+#cuadro{
+	margin-top: 70px;
+	
+}
+		.fle-nove{
+	margin-left: -150px;
+	width: 150px;
+	word-wrap: break-word;
+}
+.spa, .spa-text{
+width: 100%;
+font-size: 18px;
+}
+	.spa-text{
+	
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 2px solid #2980B9;
+}
+
+
+.div-novedad{
+	margin-top:100px;
+}
+@media (min-width: 420px){
+	.fle-nove{
+	margin-left: -330px;
+	width: 300px;
+	word-wrap: break-word;
+}
+	.botones{
+		width: 100%;
+	
+	}
+}@media (min-width: 800px ) {
+
+
+#cuadro{
+	margin-top: 40px;
+	
+}
+
+.spa, .spa-text{
+	margin-top:2px;
+	width: 48%;
+border: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+	.fle-nove{
+	margin-left: -400px;
+	width: 500px;
+	word-wrap: break-word;
+
+}
+}
+@media (min-width: 1200px) {
+ #cuadro{ 
+ 	margin-top: -7000x;
+	flex-wrap: wrap; }
+.fle-nove{
+	margin-left: -630px;
+	width: 600px;
+	word-wrap: break-word;
+}
+.cam-input{
+	width: 48%;
+	margin-bottom: 10px;
+}
+.spa, .spa-text{
+	margin-top:2px;
+	width: 48%;
+	border: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+}
